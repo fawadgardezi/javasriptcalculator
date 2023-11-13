@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Untitled-1.css">
+    <script src="Untitled-1.js"></script>
+    <!-- <script src="calc.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <h1 class="cal1" style="color: #f1c40f;">CALCULATOR</h1>
+        <div class="calculator">
+        <input style="font-size: 40px; font-weight: bold;color: aliceblue; " class="textbox" type="text" id="answer" readonly>
+
+    
+            <table>
+                <tr>
+                    <td><button onclick="AppendToTextbox('&lpar;')">(</button></td>
+                    <td><button onclick="AppendToTextbox('&rpar;')">)</button></td>
+                    <td>
+                        <div class="flexcontainer">
+                        <div class="col">
+                            <button onclick="ClearValue()" style="background-color:red; min-width: 120px; height: 60px;">C</button>
+                        </div>
+                        <div class="row">
+                            <button onclick="ClearValue()" style="background-color:red; min-width: 120px; height: 60px;">CE</button>
+                        </div>
+                        </div>
+                    </td>
+                    <td><button onclick="AppendToTextbox('%')" class="operators">%</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="AppendToTextbox('7')">7</button></td>
+                    <td><button onclick="AppendToTextbox('8')">8</button></td>
+                    <td><button onclick="AppendToTextbox('9')">9</button></td>
+                    <td><button onclick="AppendToTextbox('*')" class="operators">*</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="AppendToTextbox('4')">4</button></td>
+                    <td><button onclick="AppendToTextbox('5')">5</button></td>
+                    <td><button onclick="AppendToTextbox('6')">6</button></td>
+                    <td><button onclick="AppendToTextbox('-')" class="operators">-</button></td>
+                </tr>
+                <tr>
+                    <td><button oncanplay="AppendToTextbox('1')">1</button></td>
+                    <td><button onclick="AppendToTextbox('2')">2</button></td>
+                    <td><button onclick="AppendToTextbox('3')">3</button></td>
+                    <td><button onclick="AppendToTextbox('+')" class="operators">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="AppendToTextbox('0')">0</button></td>
+                    <td><button onclick="AppendDecimal('.')" id="decimal">.</button></td>
+                    <td><button onclick="AppendToTextbox('/')" class="operators">/</button></td>
+                    <td><button onclick="CalculateValue('=')" style="background-color:  #25db72;" class="operators">=</button></td>
+                </tr>
+            </table>
+        </div>
+     <hr style="max-width: 50; color: black;">
+    <div class="bottom">
+        <b>MADE WITH <img src="heart.png" height="20px" width="20px">  BY FAWAD ZAHEER</b>
+    </div>
+    </div>
+</body>
+</html> 

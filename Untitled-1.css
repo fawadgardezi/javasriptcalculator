@@ -1,0 +1,73 @@
+body,
+html{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color:rgb(23, 24, 37);;
+    font-family: sans-serif;
+    animation: fadein 1.5s;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 500px;
+    margin-bottom: 0;
+}
+container {
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.textbox{
+    margin-right: 2%;
+    margin-left: 2%;
+    height: 70px;
+    width: 96%;
+    border-radius: 20px;
+    background-color: rgba(56, 59, 61, 0.977);
+}
+.cal1{
+    text-align: center;
+}
+.bottom{
+    text-align: center;
+    font-size: x-large;
+}
+button{
+    border: none;
+    background-color: white;
+    padding: o.5rem 0;
+    margin: 0.5vmax;
+    font-size: 2vmax;
+    -o-transition: all ease 0.5s;
+    border-radius: 1rem;
+    transition: all 0.5 ease;
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all 0.5s ease;
+    min-height: 60px;
+    min-width: 250px;
+}
+a {
+    outline: none;
+    -moz-transition: all ease 0.5s;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all ease 0.5s;
+    transition: all 0.5 ease;
+}
+calculator {
+    display: inline-block;
+    padding: o.25rem;
+
+}
+table {
+    margin: auto;
+}
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+
+}
